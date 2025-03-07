@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100vw;
+  background-color: rgb(151, 151, 239);
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.header ul li a {
+  color: white;
+}
+
+.header ul li a:hover {
+  color: black;
+  font-size: 1.5em;
+}
+
+.divContent, .divContentOp {
+  margin: 5px;
+}
+
+#divPara, #divParaOp {
+  width: 17%;
+  margin: 0 auto;
+  background-color: rgb(196, 196, 4);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.divQuestion {
+  width: 15%;
+  margin: 0 auto;
+  color: green;
+  padding: 5px;
+}
+
+.divContentOp
+{
+    opacity: 0.5;
+}
+
+.divContentOp:hover
+{
+    opacity: 1;
+}

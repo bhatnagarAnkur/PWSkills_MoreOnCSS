@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
+
+main {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+h2 {
+  width: 20%;
+  margin: 0 auto;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+img {
+  width: 80%;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.divQuestion {
+  width: 15%;
+  margin: 0 auto;
+  color: green;
+  padding: 5px;
+}
